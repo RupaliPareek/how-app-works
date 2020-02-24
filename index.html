@@ -52,7 +52,8 @@
     <section class="banner">
         <div class="banner-text">
             <h1>
-                Get Better Understanding of Businesses and Apps
+                Get Better Understanding of <br> Businesses
+                and Apps
             </h1>
         </div>
 
@@ -69,12 +70,94 @@
         </div>
     </section>
     <section class="section">
-        <div class="section-header">
-            <h2>
-                App Listing
-            </h2>
-        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2>
+                    App Listing
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="video-card">
+                        <div>
+                            <img src="./assets/images/video-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="video-title-card">
+                            <h4 class="video-title">Startup App</h4>
+                            <p class="channel-title">Business <img src="./assets/images/tick.svg" width="12px" alt="">
+                            </p>
+                            <p class="views-title">11k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="video-card">
+                        <div>
+                            <img src="./assets/images/video-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="video-title-card">
+                            <h4 class="video-title">Startup App</h4>
+                            <p class="channel-title">Business <img src="./assets/images/tick.svg" width="12px" alt="">
+                            </p>
+                            <p class="views-title">11k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="video-card">
+                        <div>
+                            <img src="./assets/images/video-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="video-title-card">
+                            <h4 class="video-title">Startup App</h4>
+                            <p class="channel-title">Business <img src="./assets/images/tick.svg" width="12px" alt="">
+                            </p>
+                            <p class="views-title">11k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="video-card">
+                        <div>
+                            <img src="./assets/images/video-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="video-title-card">
+                            <h4 class="video-title">Startup App</h4>
+                            <p class="channel-title">Business <img src="./assets/images/tick.svg" width="12px" alt="">
+                            </p>
+                            <p class="views-title">11k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="video-card">
+                        <div>
+                            <img src="./assets/images/video-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="video-title-card">
+                            <h4 class="video-title">Startup App</h4>
+                            <p class="channel-title">Business <img src="./assets/images/tick.svg" width="12px" alt="">
+                            </p>
+                            <p class="views-title">11k views</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="video-card">
+                        <div>
+                            <img src="./assets/images/video-thumbnail.jpg" alt="">
+                        </div>
+                        <div class="video-title-card">
+                            <h4 class="video-title">Startup App</h4>
+                            <p class="channel-title">Business <img src="./assets/images/tick.svg" width="12px" alt="">
+                            </p>
+                            <p class="views-title">11k views</p>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
     </section>
     <section class="about-section section">
         <div class="container">
@@ -240,3 +323,17 @@
 </body>
 
 </html>
+
+<script>
+    $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+
+
+        if (scroll > 500) {
+            $(".search-box-section").addClass("fixed-top-search");
+        } else {
+            $(".search-box-section").removeClass("fixed-top-search");
+
+        }
+    });
+</script>
