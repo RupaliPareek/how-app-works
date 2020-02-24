@@ -295,6 +295,31 @@ p {
 .video-card {
     margin-bottom: 35px;
 
+    .thumbnail-image {}
+
+    .play-v-block {
+        margin-top: -47px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .play-button {
+        margin-left: 10px;
+    }
+
+    .timing-block {
+        background-color: #5dbf3196;
+        border-radius: 4px;
+        display: inline-block;
+        padding: 3px 14px;
+        color: #fff;
+        font-size: 13px;
+        height: 26px;
+        margin-top: 11px;
+        margin-right: 12px;
+        font-weight: 600;
+    }
+
     .video-title-card {
         margin-top: 12px;
 
@@ -429,6 +454,7 @@ footer {
     top: 0;
     width: 100%;
     padding: 0;
+    z-index: 9999;
 
     .search-box {
         background-color: #FFFFFF;
