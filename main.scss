@@ -40,6 +40,12 @@ button {
     cursor: pointer;
 }
 
+.btn {
+    background-color: $brand-color;
+    color: $white-color;
+    border-radius: 0;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -109,9 +115,15 @@ label {
 }
 
 .form-control {
-    height: calc(1.5em + .75rem + 12px);
+    height: calc(1.5em + .75rem + 26px);
     border-radius: 0;
     background: rgba(255, 255, 255, 0.81);
+}
+
+.form-control:focus {
+    border: none;
+    outline: 0;
+    box-shadow: none;
 }
 
 .flex-wrapper {
@@ -138,6 +150,9 @@ label {
     margin-top: 100px;
 }
 
+.mb-3rem {
+    margin-bottom: 3rem;
+}
 
 
 .pt-0 {
@@ -223,8 +238,109 @@ p {
 
 .banner {
     background: url(./assets/images/banner.png) fixed no-repeat;
-    height: 100vh;
+    height: 89vh;
     background-size: cover;
-    // background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+
+    .banner-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        h1 {
+            color: $brand-color;
+            font-size: 3rem;
+        }
+    }
+
+}
+
+/*-- Banner Ends --*/
+
+/*-- Seacrh Box Starts --*/
+.search-box-section {
+    padding: 0 10rem;
+
+    .search-box {
+        background-color: $white-color;
+        height: 22vh;
+        margin-top: -76px;
+        z-index: 9999;
+        box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.3);
+
+        .input-group-text {
+            font-size: 1rem;
+            font-weight: 600;
+            padding: 1rem 2rem;
+            color: $white-color;
+            background-color: $brand-color;
+            border: 1px solid $brand-color;
+            border-radius: 0;
+        }
+    }
+
+}
+
+/*-- Seacrh Box Starts --*/
+
+/*-- About Section  Starts --*/
+.about-section {
+    background-color: #F5F5F5;
+    text-align: center;
+
+    button {
+        padding: 0.5rem 2rem;
+        font-size: 14px;
+        font-weight: 700;
+    }
+}
+
+/*-- About Section  Ends --*/
+
+/*-- Footer Starts --*/
+footer {
+    background: #000000;
+    padding: 3rem 1rem;
+
+    .logo {
+
+        h2 {
+            color: $brand-color;
+        }
+
+    }
+
+    .footer-nav {
+        ul {
+            display: flex;
+            padding: 1rem 0;
+
+            li {
+
+                padding: 0 1rem;
+
+                a {
+                    color: $white-color;
+                    font-size: 14px;
+                    font-weight: 500;
+
+                    &:hover {
+                        color: $brand-color;
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    hr {
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        border-color: #353535;
+    }
 
 }

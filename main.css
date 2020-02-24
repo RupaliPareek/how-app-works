@@ -36,6 +36,12 @@ button {
   cursor: pointer;
 }
 
+.btn {
+  background-color: #15BE30;
+  color: #FFFFFF;
+  border-radius: 0;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -105,9 +111,15 @@ label {
 }
 
 .form-control {
-  height: calc(1.5em + .75rem + 12px);
+  height: calc(1.5em + .75rem + 26px);
   border-radius: 0;
   background: rgba(255, 255, 255, 0.81);
+}
+
+.form-control:focus {
+  border: none;
+  outline: 0;
+  box-shadow: none;
 }
 
 .flex-wrapper {
@@ -132,6 +144,10 @@ label {
 
 .mt-100 {
   margin-top: 100px;
+}
+
+.mb-3rem {
+  margin-bottom: 3rem;
 }
 
 .pt-0 {
@@ -206,8 +222,85 @@ p {
 /*-- Banner Starts --*/
 .banner {
   background: url(./assets/images/banner.png) fixed no-repeat;
-  height: 100vh;
+  height: 89vh;
   background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+.banner .banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner .banner-text h1 {
+  color: #15BE30;
+  font-size: 3rem;
+}
+
+/*-- Banner Ends --*/
+/*-- Seacrh Box Starts --*/
+.search-box-section {
+  padding: 0 10rem;
+}
+.search-box-section .search-box {
+  background-color: #FFFFFF;
+  height: 22vh;
+  margin-top: -76px;
+  z-index: 9999;
+  box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.3);
+}
+.search-box-section .search-box .input-group-text {
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  color: #FFFFFF;
+  background-color: #15BE30;
+  border: 1px solid #15BE30;
+  border-radius: 0;
+}
+
+/*-- Seacrh Box Starts --*/
+/*-- About Section  Starts --*/
+.about-section {
+  background-color: #F5F5F5;
+  text-align: center;
+}
+.about-section button {
+  padding: 0.5rem 2rem;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/*-- About Section  Ends --*/
+/*-- Footer Starts --*/
+footer {
+  background: #000000;
+  padding: 3rem 1rem;
+}
+footer .logo h2 {
+  color: #15BE30;
+}
+footer .footer-nav ul {
+  display: flex;
+  padding: 1rem 0;
+}
+footer .footer-nav ul li {
+  padding: 0 1rem;
+}
+footer .footer-nav ul li a {
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+}
+footer .footer-nav ul li a:hover {
+  color: #15BE30;
+}
+footer hr {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  border-color: #353535;
 }
 
 /*# sourceMappingURL=main.css.map */
