@@ -124,9 +124,9 @@ label {
 }
 
 .form-control:focus {
-    border: none;
     outline: 0;
     box-shadow: none;
+    border-color: $brand-color;
 }
 
 .flex-wrapper {
@@ -182,6 +182,20 @@ p {
     .section {
         padding: 3rem 0;
     }
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    font-weight: 600;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    font-weight: 600;
+}
+
+::placeholder {
+    font-weight: 600;
 }
 
 /* --- Header Starts --- */
@@ -272,18 +286,37 @@ p {
     padding: 0 10rem;
 
     .search-box {
-        background-color: $white-color;
+        background-color: $brand-color;
         height: 22vh;
         margin-top: -76px;
         z-index: 9999;
         box-shadow: 0 0 34px 0 rgba(63, 66, 87, 0.3);
+        padding: 2.6rem 4rem;
+
+        .input-group {
+            position: relative;
+
+            &::before {
+                content: url(./assets/images/search.svg);
+                position: absolute;
+                z-index: 9;
+                top: 22px;
+                left: 15px;
+            }
+
+            .form-control {
+                margin-right: 18px;
+                padding-left: 52px;
+            }
+        }
 
         .input-group-text {
             font-size: 1rem;
             font-weight: 600;
             padding: 1rem 2rem;
             color: $white-color;
-            background-color: $brand-color;
+            color: $brand-color;
+            background-color: $white-color;
             border: 1px solid $brand-color;
             border-radius: 0;
         }
@@ -477,12 +510,30 @@ footer {
     width: 100%;
     padding: 0;
     z-index: 9999;
+    padding: 1rem 4rem;
+    background: rgba(0, 0, 0, 0.7);
 
     .search-box {
-        background-color: $white-color;
+        background-color: transparent;
         height: 9vh;
         z-index: 9999;
         margin-top: 0;
+        padding: 0;
+
+        .input-group {
+            background: transparent;
+
+            .form-control {
+                background: rgba(255, 255, 255, 0.8);
+            }
+
+            .input-group-text {
+                color: $white-color;
+                background-color: $brand-color;
+                border: 1px solid $brand-color;
+            }
+        }
+
     }
 
 }
