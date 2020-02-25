@@ -161,12 +161,12 @@ h3,
 h4,
 h5,
 h6 {
-  color: #404040;
+  color: #000000;
   font-weight: 700;
 }
 
 p {
-  color: #828181;
+  color: #222222;
   font-size: 14px;
   line-height: 24px;
 }
@@ -322,6 +322,22 @@ p {
 }
 
 /*-- About Section  Ends --*/
+/*-- Month App Section Starts --*/
+.month-app-section {
+  background-color: #F5F5F5;
+}
+.month-app-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+.month-app-section ul {
+  margin-top: 15px;
+}
+.month-app-section ul li {
+  font-size: 14px;
+  padding: 8px 0;
+}
+
 /*-- Footer Starts --*/
 footer {
   background: #000000;
@@ -371,7 +387,7 @@ footer .footer-social ul a {
   -moz-transition: all 0.3s ease-in-out;
 }
 footer .footer-social ul a:hover {
-  background-color: #928f8f;
+  background-color: #FFFFFF;
 }
 footer .footer-social ul li {
   display: inline-block;
