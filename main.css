@@ -520,4 +520,74 @@ footer .flex-wrapper {
   border: 1px solid #15BE30;
 }
 
+.chennel-banner img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.channel-thubmnail {
+  margin-bottom: 50px;
+}
+.channel-thubmnail img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.chennel-profile {
+  margin-top: -70px;
+  margin-bottom: 80px;
+}
+
+.channel-nav ul {
+  justify-content: flex-start;
+}
+.channel-nav ul li {
+  padding: 0 1rem;
+}
+.channel-nav ul li a {
+  color: #000;
+  font-weight: 600;
+}
+.channel-nav ul li a:hover {
+  color: #15BE30;
+}
+
+.chennel-header {
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 53px;
+  padding-bottom: 16px;
+}
+
+.subscribe-button {
+  background-color: #f00;
+  border: none;
+  color: #fff;
+  padding: 0.3rem 0.6rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.upload-block {
+  position: relative;
+  height: 570px;
+}
+.upload-block .inner-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.upload-block img {
+  width: 70px;
+}
+.upload-block button {
+  margin-top: 49px;
+  padding: 0.5rem 2rem;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 /*# sourceMappingURL=main.css.map */
