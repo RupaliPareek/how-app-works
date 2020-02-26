@@ -698,6 +698,65 @@ footer .flex-wrapper {
 .video-detail-container .similar-v-block .video-card .video-title-card .video-title {
   font-size: 14px;
 }
+.video-detail-container .comment-block .user-profile-thumbnail {
+  width: 80px;
+  height: 80px;
+}
+.video-detail-container .comment-block .user-profile-thumbnail img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80px;
+  height: 80px;
+}
+.video-detail-container .comment-block .comment-title-block {
+  margin-bottom: 26px;
+}
+.video-detail-container .comment-block .comment-title-block span {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+.video-detail-container .comment-block .populer-comment-block {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #d0d0d0;
+  margin-top: 20px;
+}
+.video-detail-container .comment-block .populer-comment-block li a {
+  color: #15BE30;
+  font-size: 14px;
+  font-weight: 600;
+}
+.video-detail-container .comment-block .indi-comment-text-block h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.video-detail-container .comment-block .indi-comment-text-block h4 span {
+  color: #908A8A;
+}
+.video-detail-container .comment-block .indi-comment-text-block .comment-text {
+  font-size: 14px;
+  color: #4a4646;
+}
+.video-detail-container .comment-block .indi-comment-text-block .view-all-reply {
+  margin-top: 5px;
+}
+.video-detail-container .comment-block .indi-comment-text-block .view-all-reply a {
+  color: #908A8A;
+  font-size: 14px;
+  font-weight: 500;
+}
+.video-detail-container .comment-block .user-thumb {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+.video-detail-container .comment-block .user-thumb img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
 
 /*-- Video Detail Container Starts --*/
 /*--- Removeable css ---*/
