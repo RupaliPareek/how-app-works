@@ -623,24 +623,45 @@ footer {
 
 }
 
+.chennel-title-block {
+
+    h2 {
+        font-size: 25px;
+    }
+
+}
+
 .channel-thubmnail {
     margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #ababab;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 99;
+    line-height: 150px;
+    background-color: #fff;
 
     img {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
-        border-radius: 50%;
+        padding: 1rem;
     }
+}
+
+.followers-counts {
+    padding: 0 0rem 0 1rem;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 
 .chennel-profile {
-    margin-top: -70px;
     margin-bottom: 80px;
+    position: relative;
+    top: -75px;
 }
 
 .channel-nav {
+    margin-top: 30px;
 
     ul {
         justify-content: flex-start;
@@ -649,15 +670,24 @@ footer {
             padding: 0 1rem;
 
             a {
-                color: #000;
-                font-weight: 600;
+                color: #7b7b7b;
+                font-weight: 500;
 
                 &:hover {
                     color: $brand-color;
                 }
             }
         }
+
+
     }
+
+
+
+}
+
+.channel-nav ul li:first-child {
+    padding-left: 0;
 }
 
 .chennel-header {
@@ -674,7 +704,7 @@ footer {
     color: #fff;
     padding: 0.3rem 0.6rem;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .upload-block {
