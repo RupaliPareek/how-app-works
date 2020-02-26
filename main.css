@@ -619,6 +619,28 @@ footer .flex-wrapper {
   margin-top: 92px;
   padding: 3rem 0;
 }
+.video-detail-container .play-button {
+  width: 55px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.video-detail-container .timing-block {
+  background-color: #5dbf3196;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 3px 14px;
+  color: #fff;
+  font-size: 13px;
+  height: 26px;
+  margin-top: 11px;
+  margin-right: 12px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
 .video-detail-container .video-title {
   margin: 20px 0;
 }
@@ -759,6 +781,27 @@ footer .flex-wrapper {
 }
 
 /*-- Video Detail Container Starts --*/
+/*-- Horizontal Card Starts --*/
+.video-card-horizontal {
+  display: flex;
+}
+.video-card-horizontal .thumb-img img {
+  width: 195px;
+  height: 118px;
+}
+.video-card-horizontal h4 {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 14px;
+}
+.video-card-horizontal p {
+  margin-left: 14px;
+  font-size: 13px;
+  color: #908A8A;
+  font-weight: 500;
+}
+
+/*-- Horizontal Card Ends --*/
 /*--- Removeable css ---*/
 .custom-tabs .tabs-panel {
   overflow: hidden;
