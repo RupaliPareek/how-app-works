@@ -531,7 +531,7 @@ footer .flex-wrapper {
 }
 
 .channel-thubmnail {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   width: 150px;
   height: 150px;
   border: 2px solid #ababab;
@@ -611,6 +611,162 @@ footer .flex-wrapper {
   padding: 0.5rem 2rem;
   font-size: 16px;
   font-weight: 700;
+}
+
+/*-- Video Detail Container Starts --*/
+.video-detail-container {
+  background-color: #f7f7f7;
+  margin-top: 92px;
+  padding: 3rem 0;
+}
+.video-detail-container .video-title {
+  margin: 20px 0;
+}
+.video-detail-container .video-title h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.video-detail-container .card {
+  background: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 1rem;
+  box-shadow: none;
+}
+.video-detail-container .card .ml-20 {
+  margin-left: 10px;
+}
+.video-detail-container .card .align-center {
+  align-items: center;
+}
+.video-detail-container .card .profile-name h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.video-detail-container .card .profile-name h4 span {
+  color: #989494;
+}
+.video-detail-container .card .follower-like-block .follower-count {
+  font-size: 14px;
+  color: #000;
+  font-weight: 500;
+}
+.video-detail-container .card .profile-thumbnail {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #d8d7d7;
+  border-radius: 50%;
+  line-height: 60px;
+  text-align: center;
+}
+.video-detail-container .card .profile-thumbnail img {
+  width: 24px;
+}
+.video-detail-container .video-player-nav {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+.video-detail-container .pera-block {
+  margin-bottom: 10px;
+}
+.video-detail-container .pera-block h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.video-detail-container .pera-block p {
+  color: #777373;
+  font-size: 14px;
+}
+.video-detail-container .show-less {
+  background-color: #5dbf31;
+  color: #fff;
+  font-weight: 600;
+  border: none;
+  padding: 0.3rem 1rem;
+  font-size: 13px;
+}
+.video-detail-container .similar-v-block .sim-title {
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #c7c7c7;
+  margin-bottom: 15px;
+}
+.video-detail-container .similar-v-block .video-title {
+  margin: 0;
+}
+.video-detail-container .similar-v-block .video-card .video-title-card .video-title {
+  font-size: 14px;
+}
+
+/*-- Video Detail Container Starts --*/
+/*--- Removeable css ---*/
+.custom-tabs .tabs-panel {
+  overflow: hidden;
+  border-bottom: solid 1px #eceff0;
+}
+
+.custom-tabs .tabs-panel > a.active {
+  background-color: #eceff0;
+}
+
+.custom-tabs .tabs-panel > a {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.custom-tabs .tabs-panel > a,
+.custom-tabs .tabs-panel > .acide-panel {
+  height: 48px;
+  padding-top: 13px;
+}
+
+.custom-tabs .tabs-panel a {
+  display: block;
+  float: left;
+  color: #928e8e;
+  font-weight: 500;
+}
+
+a.active {
+  color: #15BE30;
+}
+
+.custom-tabs .tabs-panel > a.active i,
+.custom-tabs .tabs-panel > a.active span {
+  color: #15BE30;
+  font-weight: 500;
+}
+
+.custom-tabs .tabs-panel a i,
+.custom-tabs .tabs-panel a span {
+  display: block;
+  float: left;
+}
+
+.custom-tabs .tabs-panel > a {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.custom-tabs .tabs-panel > a span {
+  line-height: 24px;
+}
+
+.sv-tags span {
+  display: inline-block;
+  padding: 5px 9px 1px 9px;
+  margin-bottom: 10px;
+  background-color: #eceff0;
+  border-radius: 3px;
+  margin-right: 7px;
+}
+.sv-tags span a {
+  color: #777373;
+  font-weight: 500;
+}
+.sv-tags span a:hover {
+  color: #15BE30;
 }
 
 /*# sourceMappingURL=main.css.map */
