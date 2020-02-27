@@ -732,13 +732,8 @@ footer {
     }
 }
 
-/*-- Video Detail Container Starts --*/
-.video-detail-container {
 
-    background-color: #f7f7f7;
-    margin-top: 92px;
-    padding: 3rem 0;
-
+.video-recorder-block {
     .play-button {
         width: 55px;
         position: absolute;
@@ -762,6 +757,18 @@ footer {
         bottom: 10px;
         right: 0;
     }
+}
+
+/*-- Video Detail Container Starts --*/
+.video-detail-container {
+
+    background-color: #f7f7f7;
+    margin-top: 92px;
+    padding: 3rem 0;
+
+
+
+
 
     .video-title {
         margin: 20px 0;
