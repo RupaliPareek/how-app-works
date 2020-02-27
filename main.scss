@@ -229,6 +229,15 @@ p {
 
 }
 
+.nav-button {
+    background-color: #5dbf31;
+    padding: 5px 12px !important;
+
+    &:hover {
+        color: $white-color !important;
+    }
+}
+
 .login-btn {
     border-radius: 4px;
     color: #fff !important;
